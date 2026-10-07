@@ -7,23 +7,24 @@
   (LibSync.UI.csproj <Version> at build time), and <url> must point at that exact installer asset
   on this repo's Releases page.
 
-  Current state: v1.2.3 is LIVE (2026-09-23). GitHub latest metadata confirms the
-  LibSync-Setup.exe asset. Unauthenticated HEAD returned 200 and Content-Length
-  55245076; the public asset metadata and tested installer both report SHA-256
-  c5146707c038460cb3d17b301d27703bb964478107032037a7fb6be41b7c246d.
+  Current state: v1.2.4 is LIVE (2026-10-07). GitHub latest metadata confirms the
+  LibSync-Setup.exe asset. The unauthenticated public download returned HTTP 200,
+  Content-Length 55299632 and the same complete byte count. Its SHA-256 matches
+  the canonical tested installer and the public asset metadata:
+  c31a62958357978fa7922a9c39f91bafb5e2830d9ad6b443ec0782fde90315e6.
   These checks completed before updating the version below.
 
   The installer's output filename is a FIXED "LibSync-Setup.exe" (no version suffix, see
   protect/installer/LibSync.iss) from day one, so both this file and the website's download button
   can always use GitHub's version-independent "latest" permalink instead of a per-release URL:
-      https://github.com/JohnBoek/LibSync-releases/releases/latest/download/LibSync-Setup.exe
+      https://github.com/JohnBoek/boeksolutions.libsync-releases/releases/latest/download/LibSync-Setup.exe
   Note: GitHub release tags have had inconsistent casing on other Boek Solutions products in the
   past (e.g. lowercase "v1.1.0" vs capital "V1.1.1") — always verify the actual tag via the GitHub
   API before wiring a per-version URL, don't assume a casing convention holds.
 -->
 <item>
-    <version>1.2.3</version>
-    <url>https://github.com/JohnBoek/LibSync-releases/releases/latest/download/LibSync-Setup.exe</url>
-    <changelog>https://github.com/JohnBoek/LibSync-releases/blob/main/CHANGELOG.md</changelog>
+    <version>1.2.4</version>
+    <url>https://github.com/JohnBoek/boeksolutions.libsync-releases/releases/latest/download/LibSync-Setup.exe</url>
+    <changelog>https://github.com/JohnBoek/boeksolutions.libsync-releases/blob/main/CHANGELOG.md</changelog>
     <mandatory>false</mandatory>
 </item>
