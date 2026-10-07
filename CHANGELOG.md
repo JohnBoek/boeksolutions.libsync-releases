@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.2.4 (2026-10-07)
+
+- Improved: installs for all Windows users in Program Files, with administrator approval for installation and removal. Older per-user copies must first be uninstalled from Windows Settings; external profiles, preferences, backups and licensing state are retained.
+- Fixed: changing language refreshes license and update text immediately; Cancel restores the previous language and theme.
+- Fixed: preview action names, validation errors, activity messages, confirmation buttons and support-email drafts follow the selected language.
+- Fixed: update status no longer reports success before a completed check or after a failed check.
+- Improved: corrected translation spelling and terminology across the six natural languages. Klingon and Elvish are marked experimental, with English fallback for technical and safety messages.
+- Improved: new installations select the desktop shortcut by default. The source repository now includes the current shared GitHub issue, pull-request, release and versioning templates.
+
 ## v1.2.3 (2026-09-23)
 
 - Fixed: the profile sidebar now keeps its theme and styling while Preview or Run Sync is working.
