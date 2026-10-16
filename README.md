@@ -4,7 +4,9 @@ A Windows desktop tool for one-way, profile-based file synchronization with auto
 
 ## ⬇️ Download
 
-Grab the latest installer from **[Releases](../../releases/latest)**. Run the `.exe`, follow the wizard — no admin rights required.
+Grab the latest installer from **[Releases](../../releases/latest)**. Run the `.exe` and follow the wizard. Installation and removal apply to all Windows users and require administrator approval; run LibSync normally without administrator rights.
+
+Read the **[user guide](https://boeksolutions.nl/help/libsync.html#en-start)** in English or Dutch. The same guide is installed with the app: choose **Help → User guide** or press **F1**, even from dialogs. It works offline. You can also download `Help.html` from the latest release and open it in your browser.
 
 ## What it does
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.2.5 (2026-10-16)
+
+- Added: a complete offline Dutch/English user guide with the same layout as the SheetSetEditor guide, chapter navigation, light/dark styling, mobile layout and print support.
+- Added: open the guide through Help → User guide or F1, including from dialogs. It opens in your default browser and needs no internet connection.
+- Added: practical instructions for profiles, preview, synchronization, staging, orphan files, backups and restore, plus troubleshooting and an online copy at https://boeksolutions.nl/help/libsync.html.
+
 ## v1.2.4 (2026-10-07)
 
 - Improved: installs for all Windows users in Program Files, with administrator approval for installation and removal. Older per-user copies must first be uninstalled from Windows Settings; external profiles, preferences, backups and licensing state are retained.
