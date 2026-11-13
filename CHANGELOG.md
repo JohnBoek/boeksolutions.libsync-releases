@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.3.0 (2026-11-13)
+
+- Added: sign in to LibSync through your BoekSolutions account in your browser. New customers can try LibSync for 14 days.
+- Added: stay signed in on multiple PCs. The license window shows when another PC is active and lets you retry after it is released.
+- Added: continue working offline for up to seven days after an online license check, within the term of your license or trial.
+- Improved: existing valid device keys keep working during the transition. You can link an eligible purchase from its original delivery email.
+- Improved: a sync in progress can finish when license access changes, and you can still restore from a backup.
+
 ## v1.2.5 (2026-10-16)
 
 - Added: a complete offline Dutch/English user guide with the same layout as the SheetSetEditor guide, chapter navigation, light/dark styling, mobile layout and print support.
